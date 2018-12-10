@@ -20,7 +20,7 @@ A reasonably current [CV]({{ site.url }}/pdfs/cv_wernisch.pdf)
 ## Contact
 
 <p align="center">
-  <img style = "padding:0px 15px; float: right;" width='30%' src="/images/portrait_lw.jpg"/>
+  <img style = "padding:0px 15px; float: right;" width='40%' src="/images/portrait_lw.jpg"/>
 </p>
 Lorenz Wernisch<br>
 MRC Biostatistics Unit<br>
