@@ -1,0 +1,1383 @@
+---
+references:
+- id: goudie2018joining
+  type: article-journal
+  author:
+  - family: Goudie
+    given: Robert JB
+  - family: Presanis
+    given: Anne M
+  - family: Lunn
+    given: David
+  - family: De Angelis
+    given: Daniela
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2018'
+  title: Joining and splitting models with markov melding
+  container-title: Bayesian Analysis
+  publisher: International Society for Bayesian Analysis
+  URL: https://projecteuclid.org/euclid.ba/1523671251
+
+- id: pmid30423108
+  type: article-journal
+  author:
+  - family: Penfold
+    given: Christopher A
+  - family: Sybirna
+    given: Anastasiya
+  - family: Reid
+    given: John E
+  - family: Huang
+    given: Yun
+  - family: Wernisch
+    given: Lorenz
+  - family: Ghahramani
+    given: Zoubin
+  - family: Grant
+    given: Murray
+  - family: Surani
+    given: M Azim
+  issued:
+  - year: '2018'
+    month: '9'
+  title: <span class="nocase">Branch-recombinant Gaussian processes for analysis of
+    perturbations in biological time series.</span>
+  container-title: Bioinformatics
+  page: i1005-i1013
+  volume: '34'
+  issue: '17'
+  abstract: A common class of behaviour encountered in the biological sciences involves
+    branching and recombination. During branching, a statistical process bifurcates
+    resulting in two or more potentially correlated processes that may undergo further
+    branching; the contrary is true during recombination, where two or more statistical
+    processes converge. A key objective is to identify the time of this bifurcation
+    (branch or recombination time) from time series measurements, e.g. by comparing
+    a control time series with perturbed time series. Gaussian processes (GPs) represent
+    an ideal framework for such analysis, allowing for nonlinear regression that includes
+    a rigorous treatment of uncertainty. Currently, however, GP models only exist
+    for two-branch systems. Here, we highlight how arbitrarily complex branching processes
+    can be built using the correct composition of covariance functions within a GP
+    framework, thus outlining a general framework for the treatment of branching and
+    recombination in the form of branch-recombinant Gaussian processes (B-RGPs).
+  DOI: 10.1093/bioinformatics/bty603
+
+- id: pmid30052778
+  type: article-journal
+  author:
+  - family: Strauß
+    given: Magdalena E
+  - family: Reid
+    given: John E
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2018'
+    month: '7'
+  title: '<span class="nocase">GPseudoRank: a permutation sampler for single cell
+    orderings.</span>'
+  container-title: Bioinformatics
+  abstract: A number of pseudotime methods have provided point estimates of the ordering
+    of cells for scRNA-seq data. A still limited number of methods also model the
+    uncertainty of the pseudotime estimate. However, there is still a need for a method
+    to sample from complicated and multi-modal distributions of orders, and to estimate
+    changes in the amount of the uncertainty of the order during the course of a biological
+    development, as this can support the selection of suitable cells for the clustering
+    of genes or for network inference.
+  DOI: 10.1093/bioinformatics/bty664
+
+- id: pmid27780826
+  type: article-journal
+  author:
+  - family: Ng
+    given: Felicia S L
+  - family: Ruau
+    given: David
+  - family: Wernisch
+    given: Lorenz
+  - family: Göttgens
+    given: Berthold
+  issued:
+  - year: '2018'
+    month: '01'
+  title: <span class="nocase">A graphical model approach visualizes regulatory relationships
+    between genome-wide transcription factor binding profiles.</span>
+  container-title: Brief. Bioinformatics
+  page: '162-173'
+  volume: '19'
+  issue: '1'
+  abstract: Integrated analysis of multiple genome-wide transcription factor (TF)-binding
+    profiles will be vital to advance our understanding of the global impact of TF
+    binding. However, existing methods for measuring similarity in large numbers of
+    chromatin immunoprecipitation assays with sequencing (ChIP-seq), such as correlation,
+    mutual information or enrichment analysis, are limited in their ability to display
+    functionally relevant TF relationships. In this study, we propose the use of graphical
+    models to determine conditional independence between TFs and showed that network
+    visualization provides a promising alternative to distinguish ’direct’ versus
+    ’indirect’ TF interactions. We applied four algorithms to measure ’direct’ dependence
+    to a compendium of 367 mouse haematopoietic TF ChIP-seq samples and obtained a
+    consensus network known as a ’TF association network’ where edges in the network
+    corresponded to likely causal pairwise relationships between TFs. The ’TF association
+    network’ illustrates the role of TFs in developmental pathways, is reminiscent
+    of combinatorial TF regulation, corresponds to known protein-protein interactions
+    and indicates substantial TF-binding reorganization in leukemic cell types. With
+    the rapid increase in TF ChIP-Seq data sets, the approach presented here will
+    be a powerful tool to study transcriptional programmes across a wide range of
+    biological systems.
+  DOI: 10.1093/bib/bbw102
+
+- id: pmid29036190
+  type: article-journal
+  author:
+  - family: Gabasova
+    given: Evelina
+  - family: Reid
+    given: John
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2017'
+    month: '10'
+  title: '<span class="nocase">Clusternomics: Integrative context-dependent clustering
+    for heterogeneous datasets.</span>'
+  container-title: PLoS Comput. Biol.
+  page: 'e1005781'
+  volume: '13'
+  issue: '10'
+  abstract: Integrative clustering is used to identify groups of samples by jointly
+    analysing multiple datasets describing the same set of biological samples, such
+    as gene expression, copy number, methylation etc. Most existing algorithms for
+    integrative clustering assume that there is a shared consistent set of clusters
+    across all datasets, and most of the data samples follow this structure. However
+    in practice, the structure across heterogeneous datasets can be more varied, with
+    clusters being joined in some datasets and separated in others. In this paper,
+    we present a probabilistic clustering method to identify groups across datasets
+    that do not share the same cluster structure. The proposed algorithm, Clusternomics,
+    identifies groups of samples that share their global behaviour across heterogeneous
+    datasets. The algorithm models clusters on the level of individual datasets, while
+    also extracting global structure that arises from the local cluster assignments.
+    Clusters on both the local and the global level are modelled using a hierarchical
+    Dirichlet mixture model to identify structure on both levels. We evaluated the
+    model both on simulated and on real-world datasets. The simulated data exemplifies
+    datasets with varying degrees of common structure. In such a setting Clusternomics
+    outperforms existing algorithms for integrative and consensus clustering. In a
+    real-world application, we used the algorithm for cancer subtyping, identifying
+    subtypes of cancer from heterogeneous datasets. We applied the algorithm to TCGA
+    breast cancer dataset, integrating gene expression, miRNA expression, DNA methylation
+    and proteomics. The algorithm extracted clinically meaningful clusters with significantly
+    different survival probabilities. We also evaluated the algorithm on lung and
+    kidney cancer TCGA datasets with high dimensionality, again showing clinically
+    significant results and scalability of the algorithm.
+  DOI: 10.1371/journal.pcbi.1005781
+
+- id: pmid28800724
+  type: article-journal
+  author:
+  - family: Newton
+    given: Richard
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2017'
+    month: '8'
+  title: <span class="nocase">A comparison of machine learning and Bayesian modelling
+    for molecular serotyping.</span>
+  container-title: BMC Genomics
+  page: '606'
+  volume: '18'
+  issue: '1'
+  abstract: Streptococcus pneumoniae is a human pathogen that is a major cause of
+    infant mortality. Identifying the pneumococcal serotype is an important step in
+    monitoring the impact of vaccines used to protect against disease. Genomic microarrays
+    provide an effective method for molecular serotyping. Previously we developed
+    an empirical Bayesian model for the classification of serotypes from a molecular
+    serotyping array. With only few samples available, a model driven approach was
+    the only option. In the meanwhile, several thousand samples have been made available
+    to us, providing an opportunity to investigate serotype classification by machine
+    learning methods, which could complement the Bayesian model.
+  DOI: 10.1186/s12864-017-3998-6
+
+- id: pmid27318198
+  type: article-journal
+  author:
+  - family: Reid
+    given: John E
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2016'
+    month: '10'
+  title: '<span class="nocase">Pseudotime estimation: deconfounding single cell
+    time series.</span>'
+  container-title: Bioinformatics
+  page: '2973-80'
+  volume: '32'
+  issue: '19'
+  abstract: Repeated cross-sectional time series single cell data confound several
+    sources of variation, with contributions from measurement noise, stochastic cell-to-cell
+    variation and cell progression at different rates. Time series from single cell
+    assays are particularly susceptible to confounding as the measurements are not
+    averaged over populations of cells. When several genes are assayed in parallel
+    these effects can be estimated and corrected for under certain smoothness assumptions
+    on cell progression.
+  DOI: 10.1093/bioinformatics/btw372
+
+- id: pmid26932771
+  type: article-journal
+  author:
+  - family: Parashar
+    given: Deepak
+  - family: Bowden
+    given: Jack
+  - family: Starr
+    given: Colin
+  - family: Wernisch
+    given: Lorenz
+  - family: Mander
+    given: Adrian
+  issued:
+  - year: '2016'
+    month: '07'
+  title: <span class="nocase">An optimal stratified Simon two-stage design.</span>
+  container-title: Pharm Stat
+  page: '333-40'
+  volume: '15'
+  issue: '4'
+  abstract: 'In Phase II oncology trials, therapies are increasingly being evaluated
+    for their effectiveness in specific populations of interest. Such targeted trials
+    require designs that allow for stratification based on the participants’ molecular
+    characterisation. A targeted design proposed by Jones and Holmgren (JH) Jones
+    CL, Holmgren E: ’An adaptive Simon two-stage design for phase 2 studies of targeted
+    therapies’, Contemporary Clinical Trials 28 (2007) 654-661.determines whether
+    a drug only has activity in a disease sub-population or in the wider disease population.
+    Their adaptive design uses results from a single interim analysis to decide whether
+    to enrich the study population with a subgroup or not; it is based on two parallel
+    Simon two-stage designs. We study the JH design in detail and extend it by providing
+    a few alternative ways to control the familywise error rate, in the weak sense
+    as well as the strong sense. We also introduce a novel optimal design by minimising
+    the expected sample size. Our extended design contributes to the much needed framework
+    for conducting Phase II trials in stratified medicine. © 2016 The Authors Pharmaceutical
+    Statistics Published by John Wiley & Sons Ltd.'
+  DOI: 10.1002/pst.1742
+
+- id: pmid26581858
+  type: article-journal
+  author:
+  - family: Newton
+    given: Richard
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2015'
+    month: '11'
+  title: <span class="nocase">Investigating inter-chromosomal regulatory relationships
+    through a comprehensive meta-analysis of matched copy number and transcriptomics
+    data sets.</span>
+  container-title: BMC Genomics
+  page: '967'
+  volume: '16'
+  abstract: Gene regulatory relationships can be inferred using matched array comparative
+    genomics and transcriptomics data sets from cancer samples. The way in which copy
+    numbers of genes in cancer samples are often greatly disrupted works like a natural
+    gene amplification/deletion experiment. There are now a large number of such data
+    sets publicly available making a meta-analysis of the data possible.
+  DOI: 10.1186/s12864-015-2100-5
+
+- id: pmid25148247
+  type: article-journal
+  author:
+  - family: Newton
+    given: Richard
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2014'
+  title: <span class="nocase">A meta-analysis of multiple matched copy number and
+    transcriptomics data sets for inferring gene regulatory relationships.</span>
+  container-title: PLoS ONE
+  page: 'e105522'
+  volume: '9'
+  issue: '8'
+  abstract: Inferring gene regulatory relationships from observational data is challenging.
+    Manipulation and intervention is often required to unravel causal relationships
+    unambiguously. However, gene copy number changes, as they frequently occur in
+    cancer cells, might be considered natural manipulation experiments on gene expression.
+    An increasing number of data sets on matched array comparative genomic hybridisation
+    and transcriptomics experiments from a variety of cancer pathologies are becoming
+    publicly available. Here we explore the potential of a meta-analysis of thirty
+    such data sets. The aim of our analysis was to assess the potential of in silico
+    inference of trans-acting gene regulatory relationships from this type of data.
+    We found sufficient correlation signal in the data to infer gene regulatory relationships,
+    with interesting similarities between data sets. A number of genes had highly
+    correlated copy number and expression changes in many of the data sets and we
+    present predicted potential trans-acted regulatory relationships for each of these
+    genes. The study also investigates to what extent heterogeneity between cell types
+    and between pathologies determines the number of statistically significant predictions
+    available from a meta-analysis of experiments.
+  DOI: 10.1371/journal.pone.0105522
+
+- id: pmid24760698
+  type: article-journal
+  author:
+  - family: Calero-Nieto
+    given: Fernando J
+  - family: Ng
+    given: Felicia S
+  - family: Wilson
+    given: Nicola K
+  - family: Hannah
+    given: Rebecca
+  - family: Moignard
+    given: Victoria
+  - family: Leal-Cervantes
+    given: Ana I
+  - family: Jimenez-Madrid
+    given: Isabel
+  - family: Diamanti
+    given: Evangelia
+  - family: Wernisch
+    given: Lorenz
+  - family: Göttgens
+    given: Berthold
+  issued:
+  - year: '2014'
+    month: '6'
+  title: <span class="nocase">Key regulators control distinct transcriptional programmes
+    in blood progenitor and mast cells.</span>
+  container-title: EMBO J.
+  page: '1212-26'
+  volume: '33'
+  issue: '11'
+  abstract: Despite major advances in the generation of genome-wide binding maps,
+    the mechanisms by which transcription factors (TFs) regulate cell type identity
+    have remained largely obscure. Through comparative analysis of 10 key haematopoietic
+    TFs in both mast cells and blood progenitors, we demonstrate that the largely
+    cell type-specific binding profiles are not opportunistic, but instead contribute
+    to cell type-specific transcriptional control, because (i) mathematical modelling
+    of differential binding of shared TFs can explain differential gene expression,
+    (ii) consensus binding sites are important for cell type-specific binding and
+    (iii) knock-down of blood stem cell regulators in mast cells reveals mast cell-specific
+    genes as direct targets. Finally, we show that the known mast cell regulators
+    Mitf and c-fos likely contribute to the global reorganisation of TF binding profiles.
+    Taken together therefore, our study elucidates how key regulatory TFs contribute
+    to transcriptional programmes in several distinct mammalian cell types.
+  DOI: 10.1002/embj.201386825
+
+- id: pmid24625410
+  type: article-journal
+  author:
+  - family: Reid
+    given: John E
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2014'
+  title: '<span class="nocase">STEME: a robust, accurate motif finder for large
+    data sets.</span>'
+  container-title: PLoS ONE
+  page: 'e90735'
+  volume: '9'
+  issue: '3'
+  abstract: Motif finding is a difficult problem that has been studied for over 20
+    years. Some older popular motif finders are not suitable for analysis of the large
+    data sets generated by next-generation sequencing. We recently published an efficient
+    approximation (STEME) to the EM algorithm that is at the core of many motif finders
+    such as MEME. This approximation allows the EM algorithm to be applied to large
+    data sets. In this work we describe several efficient extensions to STEME that
+    are based on the MEME algorithm. Together with the original STEME EM approximation,
+    these extensions make STEME a fully-fledged motif finder with similar properties
+    to MEME. We discuss the difficulty of objectively comparing motif finders. We
+    show that STEME performs comparably to existing prominent discriminative motif
+    finders, DREME and Trawler, on 13 sets of transcription factor binding data in
+    mouse ES cells. We demonstrate the ability of STEME to find long degenerate motifs
+    which these discriminative motif finders do not find. As part of our method, we
+    extend an earlier method due to Nagarajan et al. for the efficient calculation
+    of motif E-values. STEME’s source code is available under an open source license
+    and STEME is available via a web interface.
+  DOI: 10.1371/journal.pone.0090735
+
+- id: pmid24123673
+  type: article-journal
+  author:
+  - family: Evangelou
+    given: Marina
+  - family: Dudbridge
+    given: Frank
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2014'
+    month: '3'
+  title: <span class="nocase">Two novel pathway analysis methods based on a hierarchical
+    model.</span>
+  container-title: Bioinformatics
+  page: '690-7'
+  volume: '30'
+  issue: '5'
+  abstract: Over the past few years several pathway analysis methods have been proposed
+    for exploring and enhancing the analysis of genome-wide association data. Hierarchical
+    models have been advocated as a way to integrate SNP and pathway effects in the
+    same model, but their computational complexity has prevented them being applied
+    on a genome-wide scale to date.
+  DOI: 10.1093/bioinformatics/btt583
+
+- id: pmid23737949
+  type: article-journal
+  author:
+  - family: Goh
+    given: Xin Yi
+  - family: Newton
+    given: Richard
+  - family: Wernisch
+    given: Lorenz
+  - family: Fitzgerald
+    given: Rebecca
+  issued:
+  - year: '2013'
+  title: <span class="nocase">Testing the utility of an integrated analysis of copy
+    number and transcriptomics datasets for inferring gene regulatory relationships.</span>
+  container-title: PLoS ONE
+  page: 'e63780'
+  volume: '8'
+  issue: '5'
+  abstract: Correlation patterns between matched copy number variation and gene expression
+    data in cancer samples enable the inference of causal gene regulatory relationships
+    by exploiting the natural randomization of such systems. The aim of this study
+    was to test and verify experimentally the accuracy of a causal inference approach
+    based on genomic randomization using esophageal cancer samples. Two candidates
+    with strong regulatory effects emerging from our analysis are components of growth
+    factor receptors, and implicated in cancer development, namely ERBB2 and FGFR2.
+    We tested experimentally two ERBB2 and three FGFR2 regulated interactions predicted
+    by the statistical analysis, all of which were confirmed. We also applied the
+    method in a meta-analysis of 10 cancer datasets and tested 15 of the predicted
+    regulatory interactions experimentally. Three additional predicted ERBB2 regulated
+    interactions were confirmed, as well as interactions regulated by ARPC1A and FANCG.
+    Overall, two thirds of experimentally tested predictions were confirmed.
+  DOI: 10.1371/journal.pone.0063780
+
+- id: pmid23275551
+  type: article-journal
+  author:
+  - family: Wang
+    given: Dennis
+  - family: Rendon
+    given: Augusto
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2013'
+    month: '2'
+  title: <span class="nocase">Transcription factor and chromatin features predict
+    genes associated with eQTLs.</span>
+  container-title: Nucleic Acids Res.
+  page: '1450-63'
+  volume: '41'
+  issue: '3'
+  abstract: Cell type-specific gene expression in humans involves complex interactions
+    between regulatory factors and DNA at enhancers and promoters. Mapping studies
+    for expression quantitative trait loci (eQTLs), transcription factors (TFs) and
+    chromatin markers have become widely used tools for identifying gene regulatory
+    elements, but prediction of target genes remains a major challenge. Here, we integrate
+    genome-wide data on TF-binding sites, chromatin markers and functional annotations
+    to predict genes associated with human eQTLs. Using the random forest classifier,
+    we found that genomic proximity plus five TF and chromatin features are able to
+    predict &gt;90
+  DOI: 10.1093/nar/gks1339
+
+- id: pmid23054952
+  type: article-journal
+  author:
+  - family: Luo
+    given: Yang
+  - family: Lim
+    given: Chea Lu
+  - family: Nichols
+    given: Jennifer
+  - family: Martinez-Arias
+    given: Alfonso
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2013'
+    month: '1'
+  title: <span class="nocase">Cell signalling regulates dynamics of Nanog distribution
+    in embryonic stem cell populations.</span>
+  container-title: J R Soc Interface
+  page: '20120525'
+  volume: '10'
+  issue: '78'
+  abstract: A population of mouse embryonic stem (ES) cells is characterized by a
+    distribution of Nanog, a gene whose expression is associated with the degree of
+    pluripotency. Cells exhibiting high levels of Nanog maintain a state of pluripotency,
+    while those with low levels are more likely to undergo differentiation. Using
+    a cell line with a fluorescence tag for Nanog enables measurements of the distribution
+    of Nanog in an ES cell culture in a stationary state or after a perturbation.
+    In order to model the dynamics of the system, we assume that the distribution
+    of Nanog-GFP for single cells shows distinct attractor steady states of Nanog
+    levels, with individual cells moving between these states stochastically. The
+    addition of synthetic inhibitors of signal transduction induces strong shifts
+    in the distribution of Nanog. In particular, the addition of Chiron and PD03,
+    inhibitors for the ERK and GSK3 signalling pathways, induces a high level of Nanog.
+    In this study, we placed ES cells in different culture conditions, including the
+    above inhibitors, and recorded the change in Nanog-GFP distribution over several
+    days. In order to interpret the measurements of Nanog levels, we propose a new
+    stochastic modelling strategy for the dynamics of the system not requiring detailed
+    knowledge of regulatory or signalling mechanisms, while still capturing the stochastic
+    and the deterministic components of the stochastic dynamical system. Despite its
+    relative simplicity, the model provides an insight into key features of the cell
+    population under various conditions, including the level of noise and occupancy
+    and location of attractor steady states, without the need for strong assumptions
+    about the underlying cellular mechanisms. By applying the model to our experimental
+    data, we infer the existence of three stable steady states for Nanog levels, which
+    are the same in all the different conditions of the cell-culture medium. Noise,
+    on the other hand, and the proportion of cells in each steady state are subject
+    to large shifts. Surprisingly, the isolated effects of PD03 and Chiron on noise
+    and dynamics of the system are quite different from their combined effect. Our
+    results show that signalling determines the occupancy of each state, with a particular
+    role for GSK3 in the regulation of the noise across the population.
+  DOI: 10.1098/rsif.2012.0525
+
+- id: pmid22859961
+  type: article-journal
+  author:
+  - family: Evangelou
+    given: Marina
+  - family: Rendon
+    given: Augusto
+  - family: Ouwehand
+    given: Willem H
+  - family: Wernisch
+    given: Lorenz
+  - family: Dudbridge
+    given: Frank
+  issued:
+  - year: '2012'
+  title: <span class="nocase">Comparison of methods for competitive tests of pathway
+    analysis.</span>
+  container-title: PLoS ONE
+  page: 'e41018'
+  volume: '7'
+  issue: '7'
+  abstract: It has been suggested that pathway analysis can complement single-SNP
+    analysis in exploring genomewide association data. Pathway analysis incorporates
+    the available biological knowledge of genes and SNPs and is expected to improve
+    the chances of revealing the underlying genetic architecture of complex traits.
+    Methods for pathway analysis can be classified as competitive (enrichment) or
+    self-contained (association) according to the hypothesis tested. Although association
+    tests are statistically more powerful than enrichment tests they can be difficult
+    to calibrate because biases in analysis accumulate across multiple SNPs or genes.
+    Furthermore, enrichment tests can be more scientifically relevant than association
+    tests, as they detect pathways with relatively more evidence for association than
+    the remaining genes. Here we show how some well known association tests can be
+    simply adapted to test for enrichment, and compare their performance to some established
+    enrichment tests. We propose versions of the Adaptive Rank Truncated Product (ARTP),
+    Tail Strength Measure and Fisher’s combination of p-values for testing the enrichment
+    null hypothesis. We compare the behaviour of these proposed methods with the established
+    Hypergeometric Test and Gene-Set Enrichment Analysis (GSEA). The results of the
+    simulation study show that the modified version of the ARTP method has generally
+    the best performance across the situations considered. The methods were also applied
+    for finding enriched pathways for body mass index (BMI) and platelet function
+    phenotypes. The pathway analysis of BMI identified the Vasoactive Intestinal Peptide
+    pathway as significantly associated with BMI. This pathway has been previously
+    reported as associated with BMI and the risk of obesity. The ARTP method was the
+    method that identified the largest number of enriched pathways across all tested
+    pathway databases and phenotypes. The simulation and data application results
+    are in agreement with previous work on association tests and suggests that the
+    ARTP should be preferred for both enrichment and association testing.
+  DOI: 10.1371/journal.pone.0041018
+
+- id: pmid22721266
+  type: article-journal
+  author:
+  - family: Wang
+    given: Dennis
+  - family: Rendon
+    given: Augusto
+  - family: Ouwehand
+    given: Willem
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2012'
+    month: '6'
+  title: <span class="nocase">Transcription factor co-localization patterns affect
+    human cell type-specific gene expression.</span>
+  container-title: BMC Genomics
+  page: '263'
+  volume: '13'
+  abstract: Cellular development requires the precise control of gene expression states.
+    Transcription factors are involved in this regulatory process through their combinatorial
+    binding with DNA. Information about transcription factor binding sites can help
+    determine which combinations of factors work together to regulate a gene, but
+    it is unclear how far the binding data from one cell type can inform about regulation
+    in other cell types.
+  DOI: 10.1186/1471-2164-13-263
+
+- id: pmid21785132
+  type: article-journal
+  author:
+  - family: Reid
+    given: John E
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2011'
+    month: '10'
+  title: '<span class="nocase">STEME: efficient EM to find motifs in large data
+    sets.</span>'
+  container-title: Nucleic Acids Res.
+  page: 'e126'
+  volume: '39'
+  issue: '18'
+  abstract: MEME and many other popular motif finders use the expectation-maximization
+    (EM) algorithm to optimize their parameters. Unfortunately, the running time of
+    EM is linear in the length of the input sequences. This can prohibit its application
+    to data sets of the size commonly generated by high-throughput biological techniques.
+    A suffix tree is a data structure that can efficiently index a set of sequences.
+    We describe an algorithm, Suffix Tree EM for Motif Elicitation (STEME), that approximates
+    EM using suffix trees. To the best of our knowledge, this is the first application
+    of suffix trees to EM. We provide an analysis of the expected running time of
+    the algorithm and demonstrate that STEME runs an order of magnitude more quickly
+    than the implementation of EM used by MEME. We give theoretical bounds for the
+    quality of the approximation and show that, in practice, the approximation has
+    a negligible effect on the outcome. We provide an open source implementation of
+    the algorithm that we hope will be used to speed up existing and future motif
+    search algorithms.
+  DOI: 10.1093/nar/gkr574
+
+- id: pmid21453458
+  type: article-journal
+  author:
+  - family: Newton
+    given: Richard
+  - family: Hinds
+    given: Jason
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2011'
+    month: '3'
+  title: <span class="nocase">Empirical Bayesian models for analysing molecular serotyping
+    microarrays.</span>
+  container-title: BMC Bioinformatics
+  page: '88'
+  volume: '12'
+  abstract: Microarrays offer great potential as a platform for molecular diagnostics,
+    testing clinical samples for the presence of numerous biomarkers in highly multiplexed
+    assays. In this study applied to infectious diseases, data from a microarray designed
+    for molecular serotyping of Streptococcus pneumoniae was used, identifying the
+    presence of any one of 91 known pneumococcal serotypes from DNA extracts. This
+    microarray incorporated oligonucleotide probes for all known capsular polysaccharide
+    synthesis genes and required a statistical analysis of the microarray intensity
+    data to determine which serotype, or combination of serotypes, were present within
+    a sample based on the combination of genes detected.
+  DOI: 10.1186/1471-2105-12-88
+
+- id: pmid20356371
+  type: article-journal
+  author:
+  - family: Zhang
+    given: Yi
+  - family: Hatch
+    given: Kim A
+  - family: Bacon
+    given: Joanna
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2010'
+    month: '3'
+  title: <span class="nocase">An integrated machine learning approach for predicting
+    DosR-regulated genes in Mycobacterium tuberculosis.</span>
+  container-title: BMC Syst Biol
+  page: '37'
+  volume: '4'
+  abstract: DosR is an important regulator of the response to stress such as limited
+    oxygen availability in Mycobacterium tuberculosis. Time course gene expression
+    data enable us to dissect this response on the gene regulatory level. The mRNA
+    expression profile of a regulator, however, is not necessarily a direct reflection
+    of its activity. Knowing the transcription factor activity (TFA) can be exploited
+    to predict novel target genes regulated by the same transcription factor. Various
+    approaches have been proposed to reconstruct TFAs from gene expression data. Most
+    of them capture only a first-order approximation to the complex transcriptional
+    processes by assuming linear gene responses and linear dynamics in TFA, or ignore
+    the temporal information in data from such systems.
+  DOI: 10.1186/1752-0509-4-37
+
+- id: pmid20199667
+  type: article-journal
+  author:
+  - family: Domedel-Puig
+    given: Núria
+  - family: Pournara
+    given: Iosifina
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2010'
+    month: '3'
+  title: <span class="nocase">Statistical model comparison applied to common network
+    motifs.</span>
+  container-title: BMC Syst Biol
+  page: '18'
+  volume: '4'
+  abstract: 'Network motifs are small modules that show interesting functional and
+    dynamic properties, and are believed to be the building blocks of complex cellular
+    processes. However, the mechanistic details of such modules are often unknown:
+    there is uncertainty about the motif architecture as well as the functional form
+    and parameter values when converted to ordinary differential equations (ODEs).
+    This translates into a number of candidate models being compatible with the system
+    under study. A variety of statistical methods exist for ranking models including
+    maximum likelihood-based and Bayesian methods. Our objective is to show how such
+    methods can be applied in a typical systems biology setting.'
+  DOI: 10.1186/1752-0509-4-18
+
+- id: pmid20074339
+  type: article-journal
+  author:
+  - family: Reid
+    given: John E
+  - family: Evans
+    given: Kenneth J
+  - family: Dyer
+    given: Nigel
+  - family: Wernisch
+    given: Lorenz
+  - family: Ott
+    given: Sascha
+  issued:
+  - year: '2010'
+    month: '1'
+  title: <span class="nocase">Variable structure motifs for transcription factor binding
+    sites.</span>
+  container-title: BMC Genomics
+  page: '30'
+  volume: '11'
+  abstract: 'Classically, models of DNA-transcription factor binding sites (TFBSs)
+    have been based on relatively few known instances and have treated them as sites
+    of fixed length using position weight matrices (PWMs). Various extensions to this
+    model have been proposed, most of which take account of dependencies between the
+    bases in the binding sites. However, some transcription factors are known to exhibit
+    some flexibility and bind to DNA in more than one possible physical configuration.
+    In some cases this variation is known to affect the function of binding sites.
+    With the increasing volume of ChIP-seq data available it is now possible to investigate
+    models that incorporate this flexibility. Previous work on variable length models
+    has been constrained by: a focus on specific zinc finger proteins in yeast using
+    restrictive models; a reliance on hand-crafted models for just one transcription
+    factor at a time; and a lack of evaluation on realistically sized data sets.'
+  DOI: 10.1186/1471-2164-11-30
+
+- id: pmid19607663
+  type: article-journal
+  author:
+  - family: Reid
+    given: John E
+  - family: Ott
+    given: Sascha
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2009'
+    month: '7'
+  title: '<span class="nocase">Transcriptional programs: modelling higher order
+    structure in transcriptional control.</span>'
+  container-title: BMC Bioinformatics
+  page: '218'
+  volume: '10'
+  abstract: Transcriptional regulation is an important part of regulatory control
+    in eukaryotes. Even if binding motifs for transcription factors are known, the
+    task of finding binding sites by scanning sequences is plagued by false positives.
+    One way to improve the detection of binding sites from motifs is by taking cooperativity
+    of transcription factor binding into account. We propose a non-parametric probabilistic
+    model, similar to a document topic model, for detecting transcriptional programs,
+    groups of cooperative transcription factors and co-regulated genes. The analysis
+    results in transcriptional programs which generalise both transcriptional modules
+    and TF-target gene incidence matrices and provide a higher-level summary of these
+    structures. The method is independent of prior specification of training sets
+    of genes, for example, via gene expression data. The analysis is based on known
+    binding motifs.
+  DOI: 10.1186/1471-2105-10-218
+
+- id: pmid19033257
+  type: article-journal
+  author:
+  - family: Reis
+    given: Mario
+    dropping-particle: dos
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2009'
+    month: '2'
+  title: <span class="nocase">Estimating translational selection in eukaryotic genomes.</span>
+  container-title: Mol. Biol. Evol.
+  page: '451-61'
+  volume: '26'
+  issue: '2'
+  abstract: Natural selection on codon usage is a pervasive force that acts on a large
+    variety of prokaryotic and eukaryotic genomes. Despite this, obtaining reliable
+    estimates of selection on codon usage has proved complicated, perhaps due to the
+    fact that the selection coefficients involved are very small. In this work, a
+    population genetics model is used to measure the strength of selected codon usage
+    bias, S, in 10 eukaryotic genomes. It is shown that the strength of selection
+    is closely linked to expression and that reliable estimates of selection coefficients
+    can only be obtained for genes with very similar expression levels. We compare
+    the strength of selected codon usage for orthologous genes across all 10 genomes
+    classified according to expression categories. Fungi genomes present the largest
+    S values (2.24-2.56), whereas multicellular invertebrate and plant genomes present
+    more moderate values (0.61-1.91). The large mammalian genomes (human and mouse)
+    show low S values (0.22-0.51) for the most highly expressed genes. This might
+    not be evidence for selection in these organisms as the technique used here to
+    estimate S does not properly account for nucleotide composition heterogeneity
+    along such genomes. The relationship between estimated S values and empirical
+    estimates of population size is presented here for the first time. It is shown,
+    as theoretically expected, that population size has an important role in the operativity
+    of translational selection.
+  DOI: 10.1093/molbev/msn272
+
+- id: pmid18604288
+  type: article-journal
+  author:
+  - family: Pournara
+    given: Iosifina
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2008'
+  title: <span class="nocase">Using temporal correlation in factor analysis for reconstructing
+    transcription factor activities.</span>
+  container-title: EURASIP J Bioinform Syst Biol
+  page: '172840'
+  abstract: Two-level gene regulatory networks consist of the transcription factors
+    (TFs) in the top level and their regulated genes in the second level. The expression
+    profiles of the regulated genes are the observed high-throughput data given by
+    experiments such as microarrays. The activity profiles of the TFs are treated
+    as hidden variables as well as the connectivity matrix that indicates the regulatory
+    relationships of TFs with their regulated genes. Factor analysis (FA) as well
+    as other methods, such as the network component algorithm, has been suggested
+    for reconstructing gene regulatory networks and also for predicting TF activities.
+    They have been applied to E. coli and yeast data with the assumption that these
+    datasets consist of identical and independently distributed samples. Thus, the
+    main drawback of these algorithms is that they ignore any time correlation existing
+    within the TF profiles. In this paper, we extend previously studied FA algorithms
+    to include time correlation within the transcription factors. At the same time,
+    we consider connectivity matrices that are sparse in order to capture the existing
+    sparsity present in gene regulatory networks. The TFs activity profiles obtained
+    by this approach are significantly smoother than profiles from previous FA algorithms.
+    The periodicities in profiles from yeast expression data become prominent in our
+    reconstruction. Moreover, the strength of the correlation between time points
+    is estimated and can be used to assess the suitability of the experimental time
+    interval.
+  DOI: 10.1155/2008/172840
+
+- id: pmid18294384
+  type: article-journal
+  author:
+  - family: Zhang
+    given: Yi
+  - family: Hatch
+    given: Kim A
+  - family: Wernisch
+    given: Lorenz
+  - family: Bacon
+    given: Joanna
+  issued:
+  - year: '2008'
+    month: '2'
+  title: <span class="nocase">A Bayesian Change point model for differential gene
+    expression patterns of the DosR regulon of Mycobacterium tuberculosis.</span>
+  container-title: BMC Genomics
+  page: '87'
+  volume: '9'
+  abstract: Low oxygen availability has been shown previously to stimulate M. tuberculosis
+    to establish non-replicative persistence in vitro. The two component sensor/regulator
+    dosRS is a major mediator in the transcriptional response of M. tuberculosis to
+    hypoxia and controls a regulon of approximately 50 genes that are induced under
+    this condition. The aim of this study was to determine whether the induction of
+    the entire DosR regulon is triggered as a synchronous event or if induction can
+    unfold as a cascade of events as the differential expression of subsets of genes
+    is stimulated by different oxygen availabilities.
+  DOI: 10.1186/1471-2164-9-87
+
+- id: pmid17335576
+  type: article-journal
+  author:
+  - family: Evans
+    given: Kenneth
+  - family: Ott
+    given: Sascha
+  - family: Hansen
+    given: Annika
+  - family: Koentges
+    given: Georgy
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2007'
+    month: '3'
+  title: <span class="nocase">A comparative study of S/MAR prediction tools.</span>
+  container-title: BMC Bioinformatics
+  page: '71'
+  volume: '8'
+  abstract: S/MARs are regions of the DNA that are attached to the nuclear matrix.
+    These regions are known to affect substantially the expression of genes. The computer
+    prediction of S/MARs is a highly significant task which could contribute to our
+    understanding of chromatin organisation in eukaryotic cells, the number and distribution
+    of boundary elements, and the understanding of gene regulation in eukaryotic cells.
+    However, while a number of S/MAR predictors have been proposed, their accuracy
+    has so far not come under scrutiny.
+  DOI: 10.1186/1471-2105-8-71
+
+- id: pmid17319944
+  type: article-journal
+  author:
+  - family: Pournara
+    given: Iosifina
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2007'
+    month: '2'
+  title: <span class="nocase">Factor analysis for gene regulatory networks and transcription
+    factor activity profiles.</span>
+  container-title: BMC Bioinformatics
+  page: '61'
+  volume: '8'
+  abstract: Most existing algorithms for the inference of the structure of gene regulatory
+    networks from gene expression data assume that the activity levels of transcription
+    factors (TFs) are proportional to their mRNA levels. This assumption is invalid
+    for most biological systems. However, one might be able to reconstruct unobserved
+    activity profiles of TFs from the expression profiles of target genes. A simple
+    model is a two-layer network with unobserved TF variables in the first layer and
+    observed gene expression variables in the second layer. TFs are connected to regulated
+    genes by weighted edges. The weights, known as factor loadings, indicate the strength
+    and direction of regulation. Of particular interest are methods that produce sparse
+    networks, networks with few edges, since it is known that most genes are regulated
+    by only a small number of TFs, and most TFs regulate only a small number of genes.
+  DOI: 10.1186/1471-2105-8-61
+
+- id: pmid17140267
+  type: article-journal
+  author:
+  - family: Newton
+    given: Richard
+  - family: Hinds
+    given: Jason
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2006'
+  title: <span class="nocase">A Hidden Markov model web application for analysing
+    bacterial genomotyping DNA microarray experiments.</span>
+  container-title: Appl. Bioinformatics
+  page: '211-8'
+  volume: '5'
+  issue: '4'
+  abstract: 'Whole genome DNA microarray genomotyping experiments compare the gene
+    content of different species or strains of bacteria. A statistical approach to
+    analysing the results of these experiments was developed, based on a Hidden Markov
+    model (HMM), which takes adjacency of genes along the genome into account when
+    calling genes present or absent. The model was implemented in the statistical
+    language R and applied to three datasets. The method is numerically stable with
+    good convergence properties. Error rates are reduced compared with approaches
+    that ignore spatial information. Moreover, the HMM circumvents a problem encountered
+    in a conventional analysis: determining the cut-off value to use to classify a
+    gene as absent. An Apache Struts web interface for the R script was created for
+    the benefit of users unfamiliar with R. The application may be found at http://hmmgd.cryst.bbk.ac.uk/hmmgd.
+    The source code illustrating how to run R scripts from an Apache Struts-based
+    web application is available from the corresponding author on request. The application
+    is also available for local installation if required.'
+
+- id: pmid16618964
+  type: article-journal
+  author:
+  - family: Withers
+    given: Mike
+  - family: Wernisch
+    given: Lorenz
+  - family: Reis
+    given: Mario
+    dropping-particle: dos
+  issued:
+  - year: '2006'
+    month: '6'
+  title: <span class="nocase">Archaeology and evolution of transfer RNA genes in the
+    Escherichia coli genome.</span>
+  container-title: RNA
+  page: '933-42'
+  volume: '12'
+  issue: '6'
+  abstract: Transfer RNA genes tend to be presented in multiple copies in the genomes
+    of most organisms, from bacteria to eukaryotes. The evolution and genomic structure
+    of tRNA genes has been a somewhat neglected area of molecular evolution. Escherichia
+    coli, the first phylogenetic species for which more than two different strains
+    have been sequenced, provides an invaluable framework to study the evolution of
+    tRNA genes. In this work, a detailed analysis of the tRNA structure of the genomes
+    of Escherichia coli strains K12, CFT073, and O157:H7, Shigella flexneri 2a 301,
+    and Salmonella typhimurium LT2 was carried out. A phylogenetic analysis of these
+    organisms was completed, and an archaeological map depicting the main events in
+    the evolution of tRNA genes was drawn. It is shown that duplications, deletions,
+    and horizontal gene transfers are the main factors driving tRNA evolution in these
+    genomes. On average, 0.64 tRNA insertions/duplications occur every million years
+    (Myr) per genome per lineage, while deletions occur at the slower rate of 0.30
+    per million years per genome per lineage. This work provides a first genomic glance
+    at the problem of tRNA evolution as a repetitive process, and the relationship
+    of this mechanism to genome evolution and codon usage is discussed.
+  DOI: 10.1261/rna.2272306
+
+- id: pmid16014369
+  type: article-journal
+  author:
+  - family: Domedel-Puig
+    given: Núria
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2005'
+    month: '9'
+  title: <span class="nocase">Applying GIFT, a Gene Interactions Finder in Text, to
+    fly literature.</span>
+  container-title: Bioinformatics
+  page: '3582-3'
+  volume: '21'
+  issue: '17'
+  abstract: A number of freely available text mining tools have been put together
+    to extract highly reliable Drosophila gene interaction data from text. The system
+    has been tested with The Interactive Fly, showing low recall (27-34
+  DOI: 10.1093/bioinformatics/bti578
+
+- id: pmid15942028
+  type: article-journal
+  author:
+  - family: Edwards
+    given: Martin T
+  - family: Rison
+    given: Stuart C G
+  - family: Stoker
+    given: Neil G
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2005'
+  title: <span class="nocase">A universally applicable method of operon map prediction
+    on minimally annotated genomes using conserved genomic context.</span>
+  container-title: Nucleic Acids Res.
+  page: '3253-62'
+  volume: '33'
+  issue: '10'
+  abstract: An important step in understanding the regulation of a prokaryotic genome
+    is the generation of its transcription unit map. The current strongest operon
+    predictor depends on the distributions of intergenic distances (IGD) separating
+    adjacent genes within and between operons. Unfortunately, experimental data on
+    these distance distributions are limited to Escherichia coli and Bacillus subtilis.
+    We suggest a new graph algorithmic approach based on comparative genomics to identify
+    clusters of conserved genes independent of IGD and conservation of gene order.
+    As a consequence, distance distributions of operon pairs for any arbitrary prokaryotic
+    genome can be inferred. For E.coli, the algorithm predicts 854 conserved adjacent
+    pairs with a precision of 85
+  DOI: 10.1093/nar/gki634
+
+- id: pmid15448185
+  type: article-journal
+  author:
+  - family: Reis
+    given: Mario
+    dropping-particle: dos
+  - family: Savva
+    given: Renos
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2004'
+  title: '<span class="nocase">Solving the riddle of codon usage preferences: a
+    test for translational selection.</span>'
+  container-title: Nucleic Acids Res.
+  page: '5036-44'
+  volume: '32'
+  issue: '17'
+  abstract: Translational selection is responsible for the unequal usage of synonymous
+    codons in protein coding genes in a wide variety of organisms. It is one of the
+    most subtle and pervasive forces of molecular evolution, yet, establishing the
+    underlying causes for its idiosyncratic behaviour across living kingdoms has proven
+    elusive to researchers over the past 20 years. In this study, a statistical model
+    for measuring translational selection in any given genome is developed, and the
+    test is applied to 126 fully sequenced genomes, ranging from archaea to eukaryotes.
+    It is shown that tRNA gene redundancy and genome size are interacting forces that
+    ultimately determine the action of translational selection, and that an optimal
+    genome size exists for which this kind of selection is maximal. Accordingly, genome
+    size also presents upper and lower boundaries beyond which selection on codon
+    usage is not possible. We propose a model where the coevolution of genome size
+    and tRNA genes explains the observed patterns in translational selection in all
+    living organisms. This model finally unifies our understanding of codon usage
+    across prokaryotes and eukaryotes. Helicobacter pylori, Saccharomyces cerevisiae
+    and Homo sapiens are codon usage paradigms that can be better understood under
+    the proposed model.
+  DOI: 10.1093/nar/gkh834
+
+- id: pmid15180938
+  type: article-journal
+  author:
+  - family: Pournara
+    given: Iosifina
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '2004'
+    month: '11'
+  title: <span class="nocase">Reconstruction of gene networks using Bayesian learning
+    and manipulation experiments.</span>
+  container-title: Bioinformatics
+  page: '2934-42'
+  volume: '20'
+  issue: '17'
+  abstract: The analysis of high-throughput experimental data, for example from microarray
+    experiments, is currently seen as a promising way of finding regulatory relationships
+    between genes. Bayesian networks have been suggested for learning gene regulatory
+    networks from observational data. Not all causal relationships can be inferred
+    from correlation data alone. Often several equivalent but different directed graphs
+    explain the data equally well. Intervention experiments where genes are manipulated
+    can help to narrow down the range of possible networks.
+  DOI: 10.1093/bioinformatics/bth337
+
+- id: pmid14627830
+  type: article-journal
+  author:
+  - family: Reis
+    given: Mario
+    dropping-particle: dos
+  - family: Wernisch
+    given: Lorenz
+  - family: Savva
+    given: Renos
+  issued:
+  - year: '2003'
+    month: '12'
+  title: <span class="nocase">Unexpected correlations between gene expression and
+    codon usage bias from microarray data for the whole Escherichia coli K-12 genome.</span>
+  container-title: Nucleic Acids Res.
+  page: '6976-85'
+  volume: '31'
+  issue: '23'
+  abstract: 'Escherichia coli has long been regarded as a model organism in the
+    study of codon usage bias (CUB). However, most studies in this organism regarding
+    this topic have been computational or, when experimental, restricted to small
+    datasets; particularly poor attention has been given to genes with low CUB. In
+    this work, correspondence analysis on codon usage is used to classify E.coli genes
+    into three groups, and the relationship between them and expression levels from
+    microarray experiments is studied. These groups are: group 1, highly biased genes;
+    group 2, moderately biased genes; and group 3, AT-rich genes with low CUB. It
+    is shown that, surprisingly, there is a negative correlation between codon bias
+    and expression levels for group 3 genes, i.e. genes with extremely low codon adaptation
+    index (CAI) values are highly expressed, while group 2 show the lowest average
+    expression levels and group 1 show the usual expected positive correlation between
+    CAI and expression. This trend is maintained over all functional gene groups,
+    seeming to contradict the E.coli-yeast paradigm on CUB. It is argued that these
+    findings are still compatible with the mutation-selection balance hypothesis of
+    codon usage and that E.coli genes form a dynamic system shaped by these factors.'
+
+- id: pmid12647395
+  type: article-journal
+  author:
+  - family: Wernisch
+    given: Lorenz
+  - family: Wodak
+    given: Shoshana J
+  issued:
+  - year: '2003'
+  title: <span class="nocase">Identifying structural domains in proteins.</span>
+  container-title: Methods Biochem Anal
+  page: '365-85'
+  volume: '44'
+
+- id: pmid12499293
+  type: article-journal
+  author:
+  - family: Wernisch
+    given: Lorenz
+  - family: Kendall
+    given: Sharon L
+  - family: Soneji
+    given: Shamit
+  - family: Wietzorrek
+    given: Andreas
+  - family: Parish
+    given: Tanya
+  - family: Hinds
+    given: Jason
+  - family: Butcher
+    given: Philip D
+  - family: Stoker
+    given: Neil G
+  issued:
+  - year: '2003'
+    month: '1'
+  title: <span class="nocase">Analysis of whole-genome microarray replicates using
+    mixed models.</span>
+  container-title: Bioinformatics
+  page: '53-61'
+  volume: '19'
+  issue: '1'
+  abstract: Microarray experiments are inherently noisy. Replication is the key to
+    estimating realistic fold-changes despite such noise. In the analysis of the various
+    sources of noise the dependency structure of the replication needs to be taken
+    into account.
+
+- id: pmid12368470
+  type: article-journal
+  author:
+  - family: Jaramillo
+    given: Alfonso
+  - family: Wernisch
+    given: Lorenz
+  - family: Héry
+    given: Stéphanie
+  - family: Wodak
+    given: Shoshana J
+  issued:
+  - year: '2002'
+    month: '10'
+  title: <span class="nocase">Folding free energy function selects native-like protein
+    sequences in the core but not on the surface.</span>
+  container-title: Proc. Natl. Acad. Sci. U.S.A.
+  page: '13554-9'
+  volume: '99'
+  issue: '21'
+  abstract: An automatic protein design procedure is used to select amino acid sequences
+    that optimize the folding free energy function for a given protein. The only information
+    used in designing the sequences is a set of known backbone structures for each
+    protein, a rotamer library, and a well established classical empirical force field,
+    which relies on basic physical chemical principles that underlie molecular interactions
+    and protein stability, and has not been adjusted to yield native-like sequences.
+    Applying the procedure to 7 different known protein folds, representing a total
+    of 45 different native protein structures, yields ensembles of designed sequences
+    displaying remarkable similarity to their natural counterparts in the protein
+    core, but which are distinctly non-native on the protein surface. We show that
+    natural and designed sequences for a given fold score significantly higher than
+    random sequences against profiles derived from both, designed and natural sequence
+    ensembles. Furthermore, we find that designed sequence profiles can be used to
+    retrieve the native sequences for many of the analyzed proteins using standard
+    PSI-BLAST searches in sequence databases. These findings may have important implications
+    for our understanding the selection pressures operating on natural protein sequences
+    and hold promise for improving fold recognition.
+  DOI: 10.1073/pnas.212068599
+
+- id: wernisch2000automatic
+  type: article-journal
+  author:
+  - family: Wernisch
+    given: Lorenz
+  - family: Hery
+    given: Stéphanie
+  - family: Wodak
+    given: Shoshana J
+  issued:
+  - year: '2000'
+  title: Automatic protein design with all atom force-fields by exact and heuristic
+    optimization
+  container-title: Journal of molecular biology
+  publisher: Academic Press
+  page: '713-736'
+  volume: '301'
+  issue: '3'
+
+- id: wernisch1999identification
+  type: article-journal
+  author:
+  - family: Wernisch
+    given: Lorenz
+  - family: Hunting
+    given: Marcel
+  - family: Wodak
+    given: Shoshana J
+  issued:
+  - year: '1999'
+  title: Identification of structural domains in proteins by a graph heuristic
+  container-title: 'Proteins: Structure, Function, and Bioinformatics'
+  publisher: Wiley Online Library
+  page: '338-352'
+  volume: '35'
+  issue: '3'
+
+- id: felsner1997trapezoid
+  type: article-journal
+  author:
+  - family: Felsner
+    given: Stefan
+  - family: Müller
+    given: Rudolf
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '1997'
+  title: Trapezoid graphs and generalizations, geometry and algorithms
+  container-title: Discrete Applied Mathematics
+  publisher: North-Holland
+  page: '13-32'
+  volume: '74'
+  issue: '1'
+
+- id: matouvsek1993discrepancy
+  type: article-journal
+  author:
+  - family: Matoušek
+    given: Jiří
+  - family: Welzl
+    given: Emo
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '1993'
+  title: Discrepancy and approximations for bounded vc-dimension
+  container-title: Combinatorica
+  publisher: Springer-Verlag
+  page: '455-466'
+  volume: '13'
+  issue: '4'
+
+- id: felsner1998maximum
+  type: article-journal
+  author:
+  - family: Felsner
+    given: Stefan
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '1998'
+  title: 'Maximum k-chains in planar point sets: Combinatorial structure and algorithms'
+  title-short: Maximum k-chains in planar point sets
+  container-title: SIAM Journal on Computing
+  publisher: SIAM
+  page: '192-209'
+  volume: '28'
+  issue: '1'
+
+- id: felsner1994trapezoid
+  type: paper-conference
+  author:
+  - family: Felsner
+    given: Stefan
+  - family: Müller
+    given: Rudolf
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '1994'
+  title: Trapezoid graphs and generalizations, geometry and algorithms
+  container-title: Scandinavian workshop on algorithm theory
+  publisher: Springer, Berlin, Heidelberg
+  page: '143-154'
+
+- id: felsner1997markov
+  type: paper-conference
+  author:
+  - family: Felsner
+    given: Stefan
+  - family: Wernisch
+    given: Lorenz
+  issued:
+  - year: '1997'
+  title: Markov chains for linear extensions, the two-dimensional case
+  container-title: SODA
+  page: '239-247'
+...

@@ -1,0 +1,79 @@
+title:            Lorenz Wernisch
+description:      "Lorenz Wernisch is a researcher working in biostatistics"
+disqus_shortname: LorenzWernisch
+reading_time:     true
+words_per_minute: 200
+url:                    # blank for local preview
+# url: <website>         # for production
+header-img: images/IMG_3085.jpg
+excerpt_separator: "<!--more-->"  # Control how much of a post is shown as an excerpt
+
+# Owner/author information
+owner:
+  name:           Lorenz Wernisch
+  avatar:         images/avatar.jpg
+  bio: >
+      Dr. Lorenz Wernisch is a researcher working in biostatistics at
+      the MRC Biostatistics Unit in Cambridge, UK.
+  email:          lwernisch@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: 
+  facebook:
+  github: lwernisch
+  stackexchange:
+  linkedin: lwernisch
+  instagram:
+  flickr:
+  tumblr:
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:
+
+# Background image to be tiled on all pages
+background:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-75337689-1  # Analytics Property ID
+google_verify:   # Webmaster
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/London
+future:      true
+highlighter: rouge
+markdown:    kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# http://jekyllrb.com/docs/permalinks/
+permalink:   /:year/:month/:title  #/:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
+paginate_path: "blog/page:num/"
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..3
+  syntax_highlighter: coderay
+
+  syntax_highlighter_opts:
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock",
+          "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp",
+          "less", "*.sublime-project", "*.sublime-workspace", "test", "spec",
+          "Gruntfile.js", "package.json", "node_modules", "rmarkdown"]
