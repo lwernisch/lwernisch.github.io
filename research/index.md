@@ -24,6 +24,9 @@ Experimental Python package [dynlearn](https://github.com/lwernisch/dynlearn)
 
 Controlled differentiation of stem cells is driven by careful administration of stimulating factors to cell cultures. The exact amount and timing of such stimulation is largely a matter of trial and error. We propose a Reinforcement Learning framework implemented in Tensorflow to optimise such dynamic experiments. Since, unlike the typical situation for many RL tasks, the number of possible experiments is extremely limited, modelling of the dynamics through Gaussian process state space models (instead of a vanilla neural networks) is crucial. In simulations of realistic systems we achieve remarkable optimisation results with only a limited number of experiments. Some details can be found in this [talk at Costnet18]({{ site.url }}/pdfs/costnet_warsaw_2018.pdf). Some earlier work on active learning for gene networks is described in [Pournara and Wernisch, 2004](https://academic.oup.com/bioinformatics/article/20/17/2934/185877).
 
+An example shows how NANOG production for a Biomodel [Chickarmane2006 - Stem cell switch reversible](https://www.ebi.ac.uk/biomodels/BIOMD0000000203) can be pushed to a level of 50 at time 10 with a series of repeated experiments (using the [Tellurium](http://tellurium.analogmachine.org) simulator as a black box). The algorithm proposes a new input A (blue) each round to explore and optimise the (unkwnown) dynamics of the system as reconstructed by Gaussian processes. 
+    
+![dynlearn example]({{ site.url }}/images/Nanog_target_50.png)
 
 ------
 
