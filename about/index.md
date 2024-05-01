@@ -25,6 +25,6 @@ lwernisch@gmail.com
 
 ## Other interests
 
-Violin playing (in string quartets and [string orchestras](https://vimeo.com/223593540)), [photography](http://lorenzwernisch.org/photography), [video](https://vimeo.com/manage/albums/3071976), some dabbling in EDM music production. A recent passion is flying, particularly an [aerobatics plane](https://cambridgeaeroclub.com/extra-ea-200/) at the Cambridge Aeroclub. Gym, Volleyball, some windsurfing and skiing to get the blood circulation going.
+Violin playing (in string quartets and string orchestras, [photography](http://lorenzwernisch.org/photography), [video](https://vimeo.com/manage/albums/3071976), some dabbling in EDM music production. A passion was flying, particularly an [aerobatics plane](https://cambridgeaeroclub.com/extra-ea-200/) at the Cambridge Aeroclub. Zumba, Volleyball, some windsurfing and skiing to get the blood circulation going.
 
 
