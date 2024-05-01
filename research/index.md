@@ -12,6 +12,13 @@ We developed a broad range of probabilistic modelling tools for the design and a
 
 ------
 
+### Decoding and optimizing nerve signalling
+
+At [IOS Health](https://www.bios.health) we focus on neural signalling in the vagus nerve. Systematic bioelectronic stimulation of the vagus nerve can have drastic physiological effects. Careful modelling of the response by Gaussian processes and Bayesian optimization enables us to hone in on a desired effect quickly and efficiently [Wernisch et al., 2024](https://iopscience.iop.org/article/10.1088/1741-2552/ad33ae}, ([pdf]({{ site.url }}/pdfs/jne_bo_paper.pdf), also [this talk]({{ site.url }}/pdfs/bayes4health21.pdf} at Bayes4Health2021). The complex relationship between various nerve fibre stimulations and physiological effects is explored in [Berthon et al., 2023](https://www.biorxiv.org/content/10.1101/2023.08.30.555487v1). Decoding signals in whole nerve recordings is a challenging task which we approach with a variety of statistical and ML methods. 
+
+
+------
+
 ### Evidence synthesis
 
 There is growing interest in analysing large heterogeneous data sets jointly, that provide different views on common underlying features. We have recently proposed a principled framework to merge separate Bayesian models, each tailored to a specific data set, into one model through common parameters ([Goudie, Presanis, Lund, De Angelis, Wernisch, 2018](https://projecteuclid.org/euclid.ba/1523671251)). A key requirement is the ability to estimate densities. We are exploring the potential of deep learning approaches, such as normalising flows, to provide detailed density estimates even for sparse data in high dimensions and the integration of such estimations into Monte Carlo sampling from or variational optimisation of Bayesian models. Another aspect of integrating heterogeneous data is the restriction of the flow of information through a so called 'cut' in a Bayesian model. There has been much debate about its meaning and we are developing a principled framework for such operator based on variational inference. The ability to estimate densities reliably plays a key role in this approach.
