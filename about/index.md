@@ -8,10 +8,7 @@ modified: 2018-10-01
 
 <p> </p>
 
-I am a programme leader at the Medical Research Council
-[Biostatistics
-Unit](http://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/n-to-s/lorenz-wernisch/)
-at Cambridge University. Before joining the BSU in 2007 I taught at [Birkbeck College](http://www.bbk.ac.uk/), University of London. My first research position in the UK was at the [EMBL European Bioinformatics Institute](https://www.ebi.ac.uk/)
+I joined [BIOS Health](https://www.bios.health/) in 2019. Before that I worked at the Medical Research Council [Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk) at Cambridge University, where, in 2007, I moved from [Birkbeck College](http://www.bbk.ac.uk/), University of London. My first research position in the UK was at the [EMBL European Bioinformatics Institute](https://www.ebi.ac.uk/)
 
 A reasonably current [CV]({{ site.url }}/pdfs/cv_wernisch.pdf)
 
