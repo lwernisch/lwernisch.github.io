@@ -20,15 +20,7 @@ A reasonably current [CV]({{ site.url }}/pdfs/cv_wernisch.pdf)
   <img style = "padding:0px 15px; float: right;" width='40%' src="/images/portrait_lw.jpg"/>
 </p>
 Lorenz Wernisch<br>
-MRC Biostatistics Unit<br>
-Cambridge Institute of Public Health<br>
-Forvie Site, Robinson Way<br>
-Cambridge Biomedical Campus<br>
-Cambridge, CB2 0SR<br>
-United Kingdom<br>
-Office: +44 (0)1223 330377<br>
 Mobile: +44 (0)7846 973438<br>
-lorenz.wernisch@mrc-bsu.cam.ac.uk<br>
 lwernisch@gmail.com
 
 ## Other interests
