@@ -8,7 +8,7 @@ modified: 2018-12-06
 ---
 
 
-We develop a broad range of probabilistic modelling tools for the design and analysis of biological experiments as well as clinical data
+We developed a broad range of probabilistic modelling tools for the design and analysis of biological experiments as well as clinical data
 
 ------
 
